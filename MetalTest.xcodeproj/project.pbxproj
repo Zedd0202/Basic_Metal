@@ -13,6 +13,7 @@
 		14A58370249355AA00B31437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A5836E249355AA00B31437 /* Main.storyboard */; };
 		14A58372249355AD00B31437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A58371249355AD00B31437 /* Assets.xcassets */; };
 		14A58375249355AD00B31437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A58373249355AD00B31437 /* LaunchScreen.storyboard */; };
+		14A5837F2496093B00B31437 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 14A5837E2496093B00B31437 /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		14A58371249355AD00B31437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14A58374249355AD00B31437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14A58376249355AD00B31437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A5837E2496093B00B31437 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				14A58368249355AA00B31437 /* AppDelegate.swift */,
 				14A5836A249355AA00B31437 /* SceneDelegate.swift */,
 				14A5836C249355AA00B31437 /* ViewController.swift */,
+				14A5837E2496093B00B31437 /* Shaders.metal */,
 				14A5836E249355AA00B31437 /* Main.storyboard */,
 				14A58371249355AD00B31437 /* Assets.xcassets */,
 				14A58373249355AD00B31437 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A5837F2496093B00B31437 /* Shaders.metal in Sources */,
 				14A5836D249355AA00B31437 /* ViewController.swift in Sources */,
 				14A58369249355AA00B31437 /* AppDelegate.swift in Sources */,
 				14A5836B249355AA00B31437 /* SceneDelegate.swift in Sources */,
